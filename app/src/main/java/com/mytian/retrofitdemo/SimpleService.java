@@ -12,6 +12,7 @@ import java.util.List;
 public class SimpleService {
 
     public static final String BASE_URL="http://www.mytian.com.cn/";
+    public static final String GET_BASE_URL="https://api.github.com/";
 
     @SerializedName(value = "list")
     public List<CourseBean> list;
